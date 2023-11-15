@@ -1,5 +1,5 @@
 [build]
   publish = "build"
-  command = "find . -name \*.mjs -type f -delete; npm run buildNetlify"
+  command = "npm run buildNetlify"
   functions = "build/functions"
 
