@@ -1,0 +1,20 @@
+{
+  "name": "tocamosbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "functions/tocamos.js",
+  "dependencies": {
+    "netlify-lambda": "^2.0.1",
+    "telegraf": "^3.36.0"
+  },
+  "scripts": {
+    "postinstall": "netlify-lambda install",
+    "buildNetlify": "netlify-lambda build functions",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devNetlify": "netlify-lambda serve functions"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
